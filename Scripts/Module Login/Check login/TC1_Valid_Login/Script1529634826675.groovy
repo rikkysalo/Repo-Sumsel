@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/januaripanjaitan/git/Repo-Sumsel/Android Apk/Polisi110_Staging200618.apk', true)
+Mobile.startApplication('/Users/RIKKY/git/Repo-Sumsel/Android Apk/Polisi110_Staging200618.apk', true, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('android.widget.TextView3 - Login'), 0)
+Mobile.tap(findTestObject('android.widget.TextView3 - Login'), 20)
 
 Mobile.setText(findTestObject('android.widget.EditText0 - Email'), 'fajar2@mailinator.com', 0)
 

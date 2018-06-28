@@ -19,15 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
-Mobile.startApplication('/Users/januaripanjaitan/git/Repo-Sumsel/Android Apk/Polisi110_Staging200618.apk', true)
+Mobile.startApplication('/Users/RIKKY/git/Repo-Sumsel/Android Apk/Polisi110_Staging200618.apk', true)
 
 'Swipe from 128,741 to 464,168 posisition on screen'
 Mobile.swipe(128, 741, 464, 168)
-  
+
 'Since 5.1.0.2, endX and endY will be relative position of (startX, startY) position'
 Mobile.swipe(128, 741, 128, 741)
-
 
 Mobile.closeApplication()
 
